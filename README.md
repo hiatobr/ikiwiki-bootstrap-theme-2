@@ -1,27 +1,27 @@
-ikiwiki-bootstrap-theme
+ikiwiki-bootstrap-theme-2
 =======================
 
-Twitter bootstrap theme for ikiwiki
+Twitter bootstrap theme for ikiwiki version 2
 
-Usage
+Forked from https://github.com/ramseydsilva/ikiwiki-bootstrap-theme
+
+Uses the last pre-compiled version of bootstrap from
+ http://getbootstrap.com
+
+Licenses
 -----
 
-```
-cd ~
-git clone git@github.com:ramseydsilva/ikiwiki-bootstrap-theme.git
+Original work from ramseydsilva has no LICENSE
 
-# edit wiki.setup and add
-templatedir: ~/ikiwiki-bootstrap-theme
+hiatobr's fork is Kopimi
 
-# Recompile wiki
-ikiwiki --setup wiki.setup
+Bootstrap is MIT
 
-# Install your own logo at /logo.png in your webroot
-```
+What for?
+-----
 
-Issues
-------
+This is used on ikiwiki blogs hosted at https://ninguem.tem.blog.br
 
-This theme is a WIP and has been flushed out only for the main pages/most commonly used options. If you notice that it breaks any particular page or feature, please report it [here] and we can fix it.
+You should install CaCert's certificates to use SSL on that site, get it on
+ https://www.cacert.org/index.php?id=3
 
-[here]: https://github.com/ramseydsilva/ikiwiki-bootstrap-theme/issues
