@@ -1,0 +1,7 @@
+This work is Kopimi. Seirously, no license at all.
+
+However, we put togheter bootstrap pre-compiled for convenience, so the
+ bootstrap/ directory is all Copyright 2015 Twitter under MIT license.
+
+If you erase the bootstrap directory from your fork, you have unencumbered
+ software.
