@@ -57,3 +57,7 @@ header nav {
 .recentchanges-table {
     table-layout: fixed;
 }
+
+.blog-sidebar {
+	float:right;
+}
