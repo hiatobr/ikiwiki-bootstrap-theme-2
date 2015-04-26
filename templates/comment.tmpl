@@ -19,13 +19,13 @@
 
 <TMPL_IF HTML5><header class="comment-header"><TMPL_ELSE><div class="comment-header"></TMPL_IF>
 <TMPL_IF COMMENTUSER>
-Comment by
+Coment&aacute;rio por
 <TMPL_IF COMMENTOPENID>
 <span class="author" title="OpenID">
 <a href="<TMPL_VAR COMMENTOPENID>"><TMPL_VAR COMMENTAUTHOR></a>
 </span>
 <TMPL_ELSE>
-<span class="author" title="Signed in">
+<span class="author" title="Logado">
 <TMPL_IF COMMENTAUTHORURL>
 <a href="<TMPL_VAR COMMENTAUTHORURL>"><TMPL_VAR COMMENTAUTHOR></a>
 <TMPL_ELSE>
@@ -37,9 +37,9 @@ Comment by
 <TMPL_IF AUTHOR>
 Comment by
 <TMPL_IF COMMENTIP>
-<span class="author" title="Unauthenticated, from <TMPL_VAR COMMENTIP>">
+<span class="author" title="N&atilde;o autenticado, de <TMPL_VAR COMMENTIP>">
 <TMPL_ELSE>
-<span class="author" title="Unauthenticated, from unknown IP address">
+<span class="author" title="N&atilde;o autenticado, endere&ccedil;o IP desconhecido">
 </TMPL_IF>
 <TMPL_IF AUTHORURL>
 <a href="<TMPL_VAR AUTHORURL>"><TMPL_VAR AUTHOR></a>
@@ -56,7 +56,7 @@ Comment by
 <TMPL_IF HTML5><nav class="actions"><TMPL_ELSE><div class="actions"></TMPL_IF>
 <ul>
 <TMPL_IF REMOVEURL>
-<li><a href="<TMPL_VAR REMOVEURL>" rel="nofollow">Remove comment</a></li>
+<li><a href="<TMPL_VAR REMOVEURL>" rel="nofollow">Remover</a></li>
 </TMPL_IF>
 </ul>
 <TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
