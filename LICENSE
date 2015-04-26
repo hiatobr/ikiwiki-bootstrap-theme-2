@@ -1,7 +1,5 @@
-This work is Kopimi. Seirously, no license at all.
+This work is [Kopimi](http://kopimi.com/kopimi).
 
-However, we put togheter bootstrap pre-compiled for convenience, so the
- bootstrap/ directory is all Copyright 2015 Twitter under MIT license.
+The bootstrap folder is pirated from the getboostrap.com site. Since it is 
+MIT licensed there is no problem cloning this repository.
 
-If you erase the bootstrap directory from your fork, you have unencumbered
- software.
