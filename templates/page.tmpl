@@ -81,7 +81,7 @@
 							</button>
 						</div> <!-- /navbar-header -->
 
-						<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+						<div class="collapse navbar-collapse navbar-right ikiwiki-navbar" id="bs-example-navbar-collapse-1">
 							<TMPL_IF HAVE_ACTIONS>
 							<ul class="nav navbar-nav">
 								<TMPL_IF EDITURL>
@@ -159,7 +159,7 @@
 
 			<TMPL_UNLESS DYNAMIC>
 			<TMPL_IF SIDEBAR>
-			<TMPL_IF HTML5><aside class="col-md-2 col-md-offset-0 blog-sidebar"><TMPL_ELSE><div class="col-md-2 col-md-offset-0 blog-sidebar"></TMPL_IF>
+			<TMPL_IF HTML5><aside class="col-md-2 col-md-offset-0 blog-sidebar ikiwiki-sidebar"><TMPL_ELSE><div class="col-md-2 col-md-offset-0 blog-sidebar ikiwiki-sidebar"></TMPL_IF>
 			<TMPL_VAR SIDEBAR>
 			<TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
 			</TMPL_IF>
