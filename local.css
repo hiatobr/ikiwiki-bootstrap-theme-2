@@ -65,4 +65,8 @@ header nav {
 .ikiwiki-navbar {
 	padding-right:2em;
 }
+img.wiki-logo {
+	max-width:64px;
+	max-height:64px;
+}
 
