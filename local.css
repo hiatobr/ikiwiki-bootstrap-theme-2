@@ -60,6 +60,13 @@ header nav {
 
 .ikiwiki-sidebar {
 	float:right;
+	border-width:thin;
+	border-style:dashed;
+	border-color:#C8C8C8;
+	border-bottom-left-radius:1em;
+	border-top-style:none;
+	border-right-style:none;
+	box-shadow:inset 0.2em -0.2em 0.2em #C8C8C8;
 }
 
 .ikiwiki-navbar {
